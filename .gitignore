@@ -1,0 +1,8 @@
+/node_modules
+/dist
+/csv
+/.env
+/client.json
+/token.json
+*.tsbuildinfo
+.DS_Store
