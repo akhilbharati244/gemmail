@@ -1,0 +1,30 @@
+{
+  "name": "gemmail",
+  "version": "1.0.0",
+  "description": "Automated Gmail agent that summarizes unread emails and drafts replies with Gemini 3.8 Flash.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "gmail",
+    "gemini",
+    "gemini-3.8-flash",
+    "ai-agent",
+    "typescript"
+  ],
+  "author": "Akhil Bharati <akhilbharati@google.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.5.0",
+    "googleapis": "^148.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.3"
+  }
+}
